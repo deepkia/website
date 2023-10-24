@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Skills</title>
+    <style>
+        .skills{
+    background-color: #000;
+    background-size: cover;
+    
+   
+}
+#skills{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.container{
+    padding: 90px;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.sub-title span{
+    color: #0ef;
+}
+.skill-list{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259,1fr)); */
+    display: flex;
+    /* grid-gap: 40px; */
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 40px;
+}
+.skill-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    width: fit-content;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 40px #0053b8f7;
+}
+.skill-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.skill-list div p{
+width: 300px;
+}
+.skill-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.skill-list div a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read{
+    background: #0ef;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 40px;
+    color: #081b29;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+.read:hover{
+    background: #0ef;
+    color: #081b08;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+    </style>
+</head>
+<body>
+    <section class="skills" id="skills">
+        <div class="container">
+        <h1 class="sub-title">My<span>Skills</span></h1>
+        <div class="skill-list">
+            <div>
+                <i class='bx bxs-file-html'style="color: #00eeff;"></i>
+             
+                <!-- <h2>Web Design</h2> -->
+                <p>
+                    HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.
+                    HTML consists of a series of elements.
+                    HTML elements tell the browser how to display the content. 
+                </p>
+                <a href="#" class="read">Learn More</a>
+               </div>
+               <div>
+                <i class='bx bxs-file-css' style="color: #00eeff;"></i>
+                <p>    
+                    
+                CSS stands for Cascading Style Sheets
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                </p>
+                <a href="#" class="read">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bxs-file-js' style="color: #00eeff;" ></i>
+             
+                <p>
+                    JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
+                    JavaScript to program the behavior of web pages.
+                </p>
+                <a href="#" class="read">Learn More</a>
+            </div>
+            <div>
+                <i class='bx bxl-php' style="color: #00eeff;"></i>
+            <p>
+                PHP is an acronym for "PHP: Hypertext Preprocessor". PHP is a server-side scripting language designed specifically for web development.PHP is a widely-used, open source scripting language
+                PHP scripts are executed on the server.
+            </p>
+            <a href="#" class="read">Learn More</a>
+        </div>
+            <div>  
+            <i class='bx bxl-c-plus-plus' style="color: #00eeff;"></i>
+            <p> 
+             C++ was developed by Bjarne Stroustrup, as an extension to the C language.   
+            C++ is an object-oriented programming (OOP) language that is viewed by many as the best    language for creating large-scale applications. C++ is a superset of the C language.
+            </p>
+            <a href="#" class="read">Learn More</a>
+        </div>
+        </div>
+  </div>
+</div>
+ </section>
+</body>
+</html>
